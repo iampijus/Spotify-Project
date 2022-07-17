@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-Lets play your favourite music</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify"><span>Spotify</span></li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songList">
+            <h1>Pijus let's play your favourite songs</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img src="/covers/1.jpg" alt="1">
+                    <span class="songName">Alone - Alan walker</span>
+                    <span class="songlistplay"><span class="songStamp">04.24</span><i id="0"
+                            class="fa-solid songItemPlay fa-circle-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="/covers/2.jpg" alt="1">
+                    <span class="songName">On my way - Alan walker</span>
+                    <span class="songlistplay"><span class="songStamp">05.12</span><i id="1"
+                            class="fa-solid songItemPlay fa-circle-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="/covers/3.jpg" alt="1">
+                    <span class="songName">Despacito - Justin Bieber</span>
+                    <span class="songlistplay"><span class="songStamp">03.21</span><i id="2"
+                            class="fa-solid songItemPlay fa-circle-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="/covers/4.jpg" alt="1">
+                    <span class="songName">Dark side - Alan Walker</span>
+                    <span class="songlistplay"><span class="songStamp">04.12</span><i id="3"
+                            class="fa-solid songItemPlay fa-circle-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="/covers/5.jpg" alt="1">
+                    <span class="songName">Hua Hain Aaj Pehli Baar</span>
+                    <span class="songlistplay"><span class="songStamp">06.24</span><i id="4"
+                            class="fa-solid songItemPlay fa-circle-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="/covers/6.jpg" alt="1">
+                    <span class="songName">Chand sifarish</span>
+                    <span class="songlistplay"><span class="songStamp">03.47</span><i id="5"
+                            class="fa-solid songItemPlay fa-circle-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="/covers/7.jpg" alt="1">
+                    <span class="songName">Tu milta hai mujhe-T-series</span>
+                    <span class="songlistplay"><span class="songStamp">04.27</span><i id="6"
+                            class="fa-solid songItemPlay fa-circle-play"></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="/covers/8.jpg" alt="1">
+                    <span class="songName">Hue Bechain</span>
+                    <span class="songlistplay"><span class="songStamp">05.35</span><i id="7"
+                            class="fa-solid songItemPlay fa-circle-play"></i></span>
+                </div>
+            </div>
+
+        </div>
+        <div class="songBanner">
+
+        </div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" value="0" min="0" max="100">
+        <div class="icons">
+            <i id="previous" class="fa-solid fa-3x fa-backward-fast"></i>
+            <i class="fa-solid fa-3x fa-circle-play" id="masterPlay"></i>
+            <i id="next" class="fa-solid fa-3x fa-forward-fast"></i>
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" alt="Playing" id="gif">
+        </div>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/884ae82d6c.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
